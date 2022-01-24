@@ -1,6 +1,12 @@
 body {
-  /* background-color: #e5e5e5; */
+  /* background-color: #000000; */
   font-family: "Poppins", sans-serif;
+  /* color: white; */
+}
+.body-shadow {
+  border: 0%;
+  box-shadow: rgba(87, 85, 85, 0.473) 0px 10px 30px 5px;
+  border-radius: 15px;
 }
 .row-font {
   color: #231d4f;
@@ -8,21 +14,29 @@ body {
 .row {
   padding: 0px;
 }
-.package {
-  border-radius: 200px;
+.custom-toast {
+  position: fixed;
+  width: 280px;
+  top: 50%;
+  right: 0%;
+  z-index: 1;
+  border-left: 5px solid blue;
 }
-.highlighted-package {
-  /* padding-top: 30px; */
-  /* border-radius: 0px; */
-  /* bottom: auto; */
+.package {
+  border-radius: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.highlight {
+  padding-top: 30px;
+}
+.back-shadow {
+  box-shadow: rgb(255, 0, 0) 0px 13px 27px -5px,
+    rgb(255, 0, 0) 0px 8px 16px -8px;
 }
 p {
   margin: 0;
 }
-div {
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
 a {
-  margin-top: 5px;
+  margin-top: 10px;
 }
